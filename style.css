@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans', 'Arial', 'sans-serif';
+}
+.page-header {
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    animation: fadeAndScale .3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transform-origin: center bottom;
+}
+
+    @keyframes fadeAndScale {
+        from {
+            opacity: 0;
+            transform: scale3d(.70, .70, 1);
+        }
+        to {
+            opacity: 1;
+            transform: scale3d(1, 1, 1);
+        }
+}
+
+
+
+.button-header {
+    margin-right: 20px;
+}
+
+
