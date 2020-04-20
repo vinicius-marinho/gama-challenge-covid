@@ -37,21 +37,19 @@
 
 <hr>
 
-<div id="div-author-image">
-    <img id="author-image" src="images/foto.png" alt="Vinicius Marinho">
-</div>
+<section id="form-position">
 
-<section id="author-description">
-    <p id="author-description-text">
-        Meu nome é Vinicius Marinho e auto em TI a aproximadamente 5 anos. Trabalho com análise de infraestrutura e DevOps 
-        onde atuo diariamente com clouds públicas e privadas, troubleshooting de aplicações e infra de redes e linux, e desenvolvimento de software (essa parte do código é mais backend kkk). 
-        Durante a minha trajetória profissional aprendi muito sobre infraestrutura, boas práticas DevOps, automação e desenvolvimento (principalmente python e golang). Hoje estudo muito kubernetes, Node, Javascript e React onde pretendo adquirir mais conhecimentos. 
-    </p>
-</section>
-
-<section id="social-logos">
-        <a href="https://www.linkedin.com/in/vin%C3%ADcius-gomes-marinho-b930b4161/" target=blank><img class="logos" src="images/Linkedin.png" alt="Linkedin logo"></a>
-        <a href="https://github.com/vinicius-marinho" target=blank><img class="logos" src="images/Github.png" alt="Github logo"></a>
+<div class="form-style form-position">
+    <div class="form-style-heading">Forneça suas informações para contato</div>
+    <form action="index.html" method="POST">
+    <label for="Nome"><span>Nome <span class="required">*</span></span><input type="text" class="input-field" placeholder="Digite seu nome" required pattern="\S+.*"/></label>
+    <label for="Email"><span>Email <span class="required">*</span></span><input type="email" placeholder="Digite seu email" class="input-field" required pattern="\S+.*" /></label>
+    <label><span>Telefone</span><input type="text" class="tel-number-field" maxlength="4" />-<input type="text" class="tel-number-field" maxlength="4"  />-<input type="text" class="tel-number-field" value="" maxlength="10"  /></label>
+    <label for="Mensagem"><span>Mensagem <span class="required">*</span></span><textarea autofocus="autofocus" pattern="\S+.*" placeholder="Escreva sua mensagem" class="textarea-field" required pattern="\S+.*"></textarea></label>
+    
+    <label><span> </span><input onclick="location.href = 'index.html'; alert('Informações foram passadas ao administrador. Só aguardar :D')" type="submit" value="Submit" /></label>
+    </form>
+    </div>
 </section>
 <footer id="footer">
     <div id="footer-div">
