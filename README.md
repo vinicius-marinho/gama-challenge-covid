@@ -1,4 +1,4 @@
-#Gama Academy Challenge
+# Gama Academy Challenge
 
 O desafio consiste na criação de um website com notícias do covid-19 usando apenas HTML e CSS.
 
