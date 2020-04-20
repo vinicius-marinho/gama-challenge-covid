@@ -308,3 +308,9 @@ li {
     padding: 10px;
     font-size: 1.0em;
 }
+
+@media (max-width: 600px) {
+    .form-style, .button-header {
+        width: 100%;
+    }
+}
