@@ -120,6 +120,10 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .text-footer {
     font-size: .9rem;
 }
@@ -146,7 +150,7 @@ a:link, a:visited {
     height: 7.5rem;
 }
 
-#div-author-image, #author-description {
+#div-author-image, #author-description{
     animation: fadeAndScale .3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
     display: flex;
     flex-direction: row;
@@ -180,6 +184,9 @@ a:link, a:visited {
     height:70px;
     margin-right: 40px;
     margin-top: 40px;
+}
+.logos:hover {
+    transform: scale(1.2);
 }
 
 #form-position {
@@ -278,7 +285,7 @@ a:link, a:visited {
 #footer {
     left:0px;
     bottom:0px;
-    margin-top: 50px;
+    margin-top: 100px;
     height:30px;
     width:100%;
  }
@@ -291,3 +298,13 @@ a:link, a:visited {
     color: #707070;
 }
 
+#links {
+    padding-top: 40px;
+    text-align: center;
+    width: 100%;
+    animation: fadeAndScale .3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+li {
+    padding: 10px;
+    font-size: 1.0em;
+}
